@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xanchor-reg"
+version = "0.1.0"
+description = "XAnchor-Reg: composable anchors with cross-domain descriptors for multi-level point cloud registration"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "torch"]
+
+[project.optional-dependencies]
+refine = ["small-gicp"]
+demo = ["open3d"]
+
+[tool.setuptools]
+packages = ["xanchor"]
