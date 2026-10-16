@@ -29,8 +29,8 @@ Tested with Python 3.10, PyTorch 2.7.1 (CUDA 12.8), spconv 2.3.8, flash-attn 2.8
 3. Install this package:
 
 ```bash
-git clone https://github.com/<user>/xanchor-reg.git
-cd xanchor-reg
+git clone https://github.com/NSCL/XAnchor-Reg.git
+cd XAnchor-Reg
 pip install -e ".[refine,demo]"
 ```
 
@@ -96,3 +96,7 @@ are 1.0 m.
 
 - [Utonia](https://github.com/Pointcept/Utonia) (Apache-2.0) provides the pretrained backbone.
 - `xanchor/sc2pcr.py` is adapted from [SC²-PCR](https://github.com/ZhiChen902/SC2-PCR) (MIT).
+
+## License
+
+This project is released under the [MIT License](LICENSE).
